@@ -22,7 +22,8 @@ The library provides offline access via a local server and LAN to curated educat
 
 The system is optimized for 40+ client computers and managed using a Library Management System (Koha / Calibre).
 
-🎯 Objectives
+
+#🎯 Objectives
 
 Improve equitable access to quality educational resources
 
@@ -32,7 +33,8 @@ Provide a safe, offline, and distraction-free learning environment
 
 Enable librarians and teachers to curate and manage content efficiently
 
-🧑‍🎓 Target Users
+
+#🧑‍🎓 Target Users
 
 Students: Grades 9–12 (read-only access)
 
@@ -40,7 +42,9 @@ Teachers: Resource recommendation & guidance
 
 Librarians/Admins: Content management and system administration
 
-🗂 Repository Structure
+
+#🗂 Repository Structure
+
 DigitalLibrary/
 │
 ├── Grade_09/
@@ -51,7 +55,8 @@ DigitalLibrary/
 │   │   └── Documents/
 │   ├── Biology/
 │   ├── Chemistry/
-│   └── ...
+│   └── 
+|
 │
 ├── Grade_10/
 ├── Grade_11/
@@ -65,7 +70,8 @@ DigitalLibrary/
 │
 └── README.md
 
-📚 Resource Types
+
+#📚 Resource Types
 
 Each subject folder contains four standardized resource types:
 
@@ -77,7 +83,9 @@ Websites – Text files or documents containing approved links
 
 Documents – Notes, syllabi, worksheets, and past exams
 
-🧾 Metadata & Cataloging
+
+
+#🧾 Metadata & Cataloging
 
 All resources must be cataloged in the Library Management System using the following minimum metadata fields:
 
@@ -101,7 +109,9 @@ Access Level
 
 ⚠️ Resources without proper metadata should not be added to the library.
 
-🖥 System Architecture
+
+
+#🖥 System Architecture
 
 Server: Central file server (Linux or Windows)
 
@@ -113,7 +123,8 @@ Management: Koha / Calibre
 
 Access Mode: Offline (local IP-based access)
 
-🔐 Access Control
+
+#🔐 Access Control
 Role	Permissions
 Admin	Full system control
 Librarian	Upload, organize, catalog
@@ -122,7 +133,8 @@ Student	View & read only
 
 All student-access folders are read-only.
 
-🛡 Content Policy
+
+#🛡 Content Policy
 
 This library includes only legal and ethical resources:
 
@@ -134,9 +146,11 @@ Creative Commons resources
 
 Official educational platforms
 
-❌ No pirated or copyrighted materials without permission.
 
-🔄 Maintenance & Backup
+#❌ No pirated or copyrighted materials without permission.
+
+
+#🔄 Maintenance & Backup
 
 Daily local backup
 
@@ -146,7 +160,8 @@ Monthly archive snapshot
 
 Regular integrity checks
 
-🚀 Getting Started
+
+#🚀 Getting Started
 
 Set up the server and shared folders
 
@@ -158,7 +173,8 @@ Add metadata records in the LMS
 
 Test access from client computers
 
-📌 Notes for Librarians
+
+#📌 Notes for Librarians
 
 Always verify grade and subject alignment
 
@@ -168,7 +184,8 @@ Keep folder naming consistent
 
 Review resources annually for relevance
 
-📞 Support & Administration
+
+#📞 Support & Administration
 
 For technical support, contact the system administrator or library ICT coordinator.
 
